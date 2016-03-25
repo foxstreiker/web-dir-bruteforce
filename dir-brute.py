@@ -72,7 +72,9 @@ def dir_bruter(word_queue,extensions = None):
                 
                 
 if "http" not in target_url:
-    target_url = "http://"+target_url+"/"    
+    target_url = "http://"+target_url
+if target_url[-1] != "/":
+    target_url+="/"
 try:
     f=open(wordlist_file,"r")
     f.close()
