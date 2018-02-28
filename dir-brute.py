@@ -5,7 +5,8 @@ import urllib
 import sys
 
 def credit():
-    print "%sDirectory Bruteforce By Maxstreiker%s" %(yel,norm)
+    print "%sDirectory Bruteforce By Foxstreiker%s" %(yel,norm)
+    print "%shttps://github.com/foxstreiker/%s" %(yel,norm)
 
 red	= 	"\033[01;31m"
 green = 	"\033[01;32m"
